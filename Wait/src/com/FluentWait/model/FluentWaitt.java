@@ -25,6 +25,8 @@ public static void main(String[] args) {
 			WebElement msgElement=driver.findElement(By.xpath("//p[@id='demo'][.='Software Testing Material - DEMO PAGE']"));
 			String msgtext=msgElement.getText();
 			System.out.println(msgtext);
+			
+			System.out.println("Ganesh");
 			return msgElement;
 			
 			/*if(msgtext.equalsIgnoreCase("Software Testing Material - DEMO PAGE")){
