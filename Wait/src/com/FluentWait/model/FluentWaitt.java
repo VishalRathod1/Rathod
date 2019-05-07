@@ -26,7 +26,7 @@ public static void main(String[] args) {
 			String msgtext=msgElement.getText();
 			System.out.println(msgtext);
 			
-			System.out.println("Ganesh");
+			
 			return msgElement;
 			
 			/*if(msgtext.equalsIgnoreCase("Software Testing Material - DEMO PAGE")){
